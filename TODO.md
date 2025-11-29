@@ -1,0 +1,4 @@
+- Edit lib/user.py: Add **init** method to set first_name and last_name.
+- Edit lib/teacher.py: Modify **init** to call super().**init** and set self.knowledge to the provided list; implement teach() to return random element.
+- Edit lib/student.py: Modify **init** to call super().**init** and set self.knowledge to []; implement learn() to append string to knowledge.
+- Run pytest on the test files to verify implementation.
